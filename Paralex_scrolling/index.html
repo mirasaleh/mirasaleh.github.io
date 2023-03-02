@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lost</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html" class="logo">Lost</a>
+            <ul class="navigation">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="#part1">Chapter 1</a></li>
+                <li><a href="#part2">Chapter 2</a></li>
+            </ul>
+        </header>
+
+        <section class="parallax">
+            <h2 id="text">Into the Wilderness</h2>
+            <img src="images/monutain_01.png" id="m1">
+            <img src="images/monutain_02.png" id="m2">
+            <img src="images/trees_01.png" id="t1">
+            <img src="images/trees_02.png" id="t2">
+            <img src="images/man.png" id="man">
+            <img src="images/plants.png" id="plants">
+        </section>
+
+        <section id="part1" class="sec">
+            <h2 id="text3">Lost</h2>
+            <p id="text4">John had been planning his hiking trip for weeks, but everything went wrong when he got lost in the forest. As the sun began to set, he knew he wouldn't make it back to the trailhead. John was forced to set up camp in a small clearing, using branches and leaves to make a shelter. He had very little food and water left, and the night was filled with the sounds of unfamiliar creatures. Despite the fear and discomfort, John tried to remain calm and hopeful that he would be rescued the next day.</p>
+        </section>
+
+        <section id="part2" class="ch1">
+           <img src="images/camp.png" id="camp">
+            <h2 id="text2"> "In the darkness of the forest,<br> I found the light within myself." </h2>
+        </section>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+        <script>
+            gsap.from("#m1",{
+                scrollTrigger:{
+                    scrub: true
+                },
+                y: 100,
+            })
+            gsap.from("#m2",{
+                scrollTrigger:{
+                    scrub: true
+                },
+                y: 50,
+            })
+            gsap.from("#t2",{
+                scrollTrigger:{
+                    scrub: true
+                },
+                x: -50,
+            })
+            gsap.from("#t1",{
+                scrollTrigger:{
+                    scrub: true
+                },
+                x: 50,
+            })
+            gsap.from("#man",{
+                scrollTrigger:{
+                    scrub: true
+                },
+                x: -250,
+            })
+            gsap.from("#plants",{
+                scrollTrigger:{
+                    scrub: true
+                },
+                x: -50,
+            })
+            gsap.from("#text",{
+                scrollTrigger:{
+                    scrub: true
+                },
+                y: -150,
+            })
+            gsap.from("#text3",{
+                scrollTrigger:{
+                    scrub: true
+                },
+                y: -200,
+            })
+            gsap.from("#text4",{
+                scrollTrigger:{
+                    scrub: true
+                },
+                y: -200,
+            })
+            gsap.from("#text2",{
+                scrollTrigger:{
+                    scrub: true
+                },
+                y: -500,
+            })
+
+        </script>
+
+
+
+
+  
+    </body>
+</html>
