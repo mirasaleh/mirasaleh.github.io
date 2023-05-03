@@ -16,6 +16,14 @@ The filming process required dedication and attention to detail, as we were dete
 
 After completing the filming process, we moved on to editing the footage using Adobe Premiere Pro. This stage was probably the steepest learning curve for us, as we had to familiarize ourselves with the software and its capabilities. We spent countless hours watching tutorials, experimenting with different tools, and refining the final cut to create a seamless and emotionally impactful video. The challenge was to effectively merge the different storylines, create smooth transitions, and maintain consistent pacing and tone throughout the video.
 
+### Video Perspectives: Creating Immersion with Different POVs
+
+In addition to the choppy audio design, we intended for the videos to be shot from different perspectives to further immerse users in Tarek's journey. By capturing various points of view, we aimed to provide a diverse and engaging visual experience, allowing users to feel more connected to the story. However, we made a mistake in not blurring the background in some shots, which may have detracted from the intended effect of the different perspectives. In future projects, we plan to pay closer attention to details like background blur and depth of field to enhance the immersive quality of our interactive video experiences and ensure a more cohesive visual narrative.
+
+### Audio Design: Intentionally Choppy, Yet Room for Improvement
+
+We intentionally designed the audio to be choppy in some parts of the video, as we wanted to create a sense of different perspectives and immerse the user in various points of view. This artistic choice was meant to add depth to the story and help users feel more connected to Tarek's journey. However, we acknowledge that our audio editing skills were limited, and we made a mistake in equalizing the audio. In hindsight, we wish we had more expertise to fully rectify this issue and create a more polished audio experience for our users. In future projects, we aim to further develop our audio editing skills to ensure a higher quality and more immersive soundscape for our interactive video experiences.
+
 ### Website Development and Customization
 
 To host our interactive video, we chose a website template from NicePages as a foundation. However, we wanted to create a distinctive and engaging platform, so we incorporated various custom elements to the template. With our baseline coding skills, we managed to implement interactive features that allowed users to choose different scenarios and navigate through the story. The website development process, though challenging, was a rewarding experience that allowed us to expand our skill set.
