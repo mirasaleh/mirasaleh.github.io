@@ -287,6 +287,7 @@ section.portfolio .portfolio-container {
   max-width: 1000px;
   margin: 0 auto;
 
+
 }
 
 section.portfolio .portfolio-box {
@@ -400,5 +401,141 @@ section.portfolio .portfolio-layer p {
     max-width: 250px;
   }
 }
+
+
+/* Adjust layout and font sizes for small screens */
+@media (max-width: 767px) {
+
+  /* Reset body overflow */
+  body {
+    overflow: visible;
+  }
+
+  .logo{
+  	font-size: 20px;
+/*		font-size: 40px;*/
+		font-weight: 800;
+		color: #3d535f;
+		letter-spacing: normal;
+		cursor: pointer;
+		text-transform: uppercase;
+  }
+
+  .navItems{
+	display: flex;
+}
+
+.navItems li{
+	list-style: none;
+	margin: 0 4px;
+}
+
+.navItems li a{
+	font-size: 15px;
+	color: #3d535f;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+  /* Adjust hero section */
+  .hero {
+    height: auto;
+    padding: 50px 0;
+    text-align: center;
+    height: 100vh;
+  }
+
+    .wrapper::before {
+
+    display: none;
+  }
+  .wrapper::after {
+    display: none;
+  }
+  .cols {
+    display: block;
+    margin-bottom: 30px;
+    width: 210%;
+  }
+
+  .cols1 {
+    margin: 0 auto;
+    margin-top: 50px;
+    z-index: 1;
+
+  }
+  .imgbox {
+	  position: relative;
+	  z-index: 1;
+}
+  .imgbox img {
+     max-width: 100%;
+	  height: auto;
+  }
+  .topline {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+
+button {
+  margin-right: auto;
+  margin-left: 5px;
+}
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .btns {
+    display: flex;
+    justify-content: center;
+  }
+  .btns button {
+/*    margin: 0 auto;*/
+    padding: 10px 20px;
+    font-size: 1rem;
+      margin-right: auto;
+  margin-left: 5px;
+  }
+
+  /* Adjust portfolio section */
+  .portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .portfolio-box {
+    width: 300px;
+    height: 250px;
+  }
+
+  /* Adjust about section */
+  .about {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .col-md-6 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .col-md-6 img {
+    max-width: 60%;
+    height: auto;
+  }
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-indent: 50px;
+  }
+}
+
 
 
